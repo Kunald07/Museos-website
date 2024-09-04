@@ -1,0 +1,149 @@
+@media (max-width: 768px) {
+    #loader h1{
+        font-size: 25vw;
+    }
+    #wrapper nav h3:nth-child(2){
+       display: none;
+    
+    }
+    #wrapper nav h3{
+        font-size: 3vw;
+    }
+    .heroContent{
+        margin-top: 25vw;
+    }
+    .elem h1{
+        font-size: 12vw;
+        letter-spacing: -4px;
+        /* line-height: 1vw; */
+    }
+    .overlayImg{
+        height: 20vh;
+    }
+    .mainContainer{
+        height: 25vh;
+        /* border: 2px solid white; */
+        width: 23vw;
+    }
+    .numberList div{
+        font-size: 22vw;
+    }
+    #intro{
+        flex-direction: column;
+        /* padding-top: 5vw; */
+        gap: 4vw;
+        padding: 4vw;
+        margin-top: 10vh;
+    }
+    #intro h2{
+        width: 100%;
+        font-size: 8vw;
+    }
+    #intro .content {
+       width: 100%;
+     
+    }
+    #intro .content p{
+        font-size: 5vw;
+        font-family: serifs;
+    }
+   #introduction{
+    height: 150vh;
+   }
+   .hover_elems{
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-around;
+    width: 80%;
+   }
+   .left_content h3{
+    font-size: 8vw;
+   }
+   .mainElems{
+    height: 18vh;
+   }
+   .left_content p{
+    font-size: 3vw;
+   }
+   .right h4{
+    font-size: 4vw;
+   }
+   .playBtn{
+    width: 8vw;
+    height: 8vw;
+    margin: 0 2vw;
+   }
+   #elem{
+    height: 10vh;
+    border: 2px solid red;
+   }
+   #elem2 h1{
+    font-size: 14vw;
+    line-height: 11vw;
+    letter-spacing: -4px;
+   }
+   #contextContainer{
+    height: fit-content;
+    flex-direction: column;
+    margin-top: 10vh;
+   }
+   #contextContainer h2{
+    width: 100%;
+    font-size: 8vw;
+   }
+   #contextContainer .content{
+    width: 90%;
+   }
+   #contextContainer .content p{
+    font-size: 5vw;
+    margin-top: 3vw;
+   }
+   .imgWrapper{
+    height: 40vh;
+    margin-top: 3vw;
+   }
+   .videoContainer{
+    flex-direction: column;
+    gap: 3vw;
+   }
+   .videoContainer #videoImg{
+    width: 100%;
+   }
+   .videos h6{
+    font-size: 4vw;
+   }
+   #elem3 h1,#elem4 h1{
+    font-size: 15vw;
+    line-height: 11vw;
+    letter-spacing: -4px
+   }
+   .juanImg img{
+    width: 80%;
+    height: 90vh;
+   }
+   #juanContainer,#initiativeContainer{
+    flex-direction: column;
+    gap: 3vw;
+    margin-top: 10vh;
+   }
+   #juanContainer h2,#initiativeContainer h2{
+    width: 100%;
+    font-size: 8vw;
+   }
+   #juanContainer .content,#initiativeContainer .content{
+    width: 90%;
+   }
+   #juanContainer .content p,#initiativeContainer .content p{
+    font-size: 5vw;
+    font-family: serifs;
+}
+#juan{
+    height: 202vh;
+}
+#initiative{
+    height: 100vh;
+}
+.ploygon{
+    height: 50vh;
+}
+}
